@@ -1,15 +1,13 @@
 .header{
     background-color: darkgray;
     padding:5px;
-   
-
- &-nav{
+    &-nav{
     display: flex;
     justify-content: space-between;
  }   
     &-nav-img{
         width: 40vh;
-        justify-content: left;     
+        justify-content: center;   
     }
 
    .menu{

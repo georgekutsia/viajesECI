@@ -1,12 +1,41 @@
 .destinos{
 background-color: burlywood;
 display:flex;
+justify-content:center;
+align-items: center;
 
 &-logotipos{
     width: 50px;
-    &-desc{
-        list-style: none;
-   
+.button{
+    margin: 0;
+    border:none;
+    background-color: transparent;
+    gap: 25px;
+ }        
     }
-}
+    }
+
+.galeria{
+    display:table-column;
+    justify-items:center;
+
+    &-ind{ margin: 25px;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+   
+    &-img{
+        width: 5vh;
+    }
+    &-hijo-h2{
+        font-weight: bold;
+
+    }
 }
