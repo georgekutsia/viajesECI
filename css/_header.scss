@@ -9,16 +9,18 @@
  }   
     &-nav-img{
         width: 40vh;
-        background-position:left;
         justify-content: left;     
     }
 
    .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
     &-link{
-        width: 3vh;
-        display: inline-flex;
-        justify-content: space-around;
- 
+        width: 3vh; 
+        margin-left: 15px;
+        margin-right: 15px;
    }
      }
      }

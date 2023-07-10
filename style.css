@@ -13,13 +13,18 @@
 }
 .header-nav-img {
   width: 40vh;
-  background-position: left;
   justify-content: left;
+}
+.header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 .header .menu-link {
   width: 3vh;
-  display: inline-flex;
-  justify-content: space-around;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .destinos {
