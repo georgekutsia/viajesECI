@@ -1,6 +1,16 @@
 .header{
-    @include header;
-    .icons{
-    width: 30vh;
+    background-color: darkgray;
+    display:flex;
+
+    &-img{
+        width: 50vh;
     }
-    }
+
+   .menu{
+    &-link{
+        width: 20vh;
+        justify-content: right;
+
+   }
+     }
+     }

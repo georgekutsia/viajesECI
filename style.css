@@ -3,6 +3,14 @@
   padding: 0;
 }
 
-.icons {
-  width: 30vh;
+.header {
+  background-color: darkgray;
+  display: flex;
+}
+.header-img {
+  width: 50vh;
+}
+.header .menu-link {
+  width: 20vh;
+  justify-content: right;
 }/*# sourceMappingURL=style.css.map */
