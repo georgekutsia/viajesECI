@@ -1,0 +1,12 @@
+.destinos{
+background-color: burlywood;
+display:flex;
+
+&-logotipos{
+    width: 50px;
+    &-desc{
+        list-style: none;
+   
+    }
+}
+}

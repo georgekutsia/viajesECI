@@ -1,16 +1,24 @@
 .header{
     background-color: darkgray;
-    display:flex;
+    padding:5px;
+   
 
-    &-img{
-        width: 50vh;
+ &-nav{
+    display: flex;
+    justify-content: space-between;
+ }   
+    &-nav-img{
+        width: 40vh;
+        background-position:left;
+        justify-content: left;     
     }
 
    .menu{
     &-link{
-        width: 20vh;
-        justify-content: right;
-
+        width: 3vh;
+        display: inline-flex;
+        justify-content: space-around;
+ 
    }
      }
      }

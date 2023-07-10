@@ -5,12 +5,30 @@
 
 .header {
   background-color: darkgray;
-  display: flex;
+  padding: 5px;
 }
-.header-img {
-  width: 50vh;
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav-img {
+  width: 40vh;
+  background-position: left;
+  justify-content: left;
 }
 .header .menu-link {
-  width: 20vh;
-  justify-content: right;
+  width: 3vh;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.destinos {
+  background-color: burlywood;
+  display: flex;
+}
+.destinos-logotipos {
+  width: 50px;
+}
+.destinos-logotipos-desc {
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */
